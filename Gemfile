@@ -31,6 +31,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'
+gem 'devise'
+gem 'bootstrap', '~> 5.0.0.alpha1'
+gem 'jquery-rails'
 
 group :development, :test do
   gem 'pry-byebug'
