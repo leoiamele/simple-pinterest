@@ -35,6 +35,7 @@ gem 'devise'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
 gem 'awesome_print'
+gem 'faker'
 
 group :development, :test do
   gem 'pry-byebug'

@@ -1,4 +1,6 @@
 <h1>Boards#index</h1>
 <% @boards.each do |board| %>
 <p><%= board.name %></p>
+<p><%= board.pins.first.image %></p>
+<%= image_tag board.pins.first.image, alt: 'Hello' %>
 <% end %>
