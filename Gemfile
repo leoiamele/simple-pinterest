@@ -34,6 +34,7 @@ gem 'simple_form'
 gem 'devise'
 gem 'bootstrap', '~> 4.2.1'
 gem 'jquery-rails'
+gem 'awesome_print'
 
 group :development, :test do
   gem 'pry-byebug'
